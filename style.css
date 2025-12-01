@@ -1,0 +1,64 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #4a90e2;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* About section */
+.about, .projects {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about h2, .projects h2 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+/* Project cards */
+.project-card {
+    background: #e9f3ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 5px solid #4a90e2;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #4a90e2;
+    color: white;
+}
